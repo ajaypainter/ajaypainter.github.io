@@ -97,14 +97,14 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #47b2e4;
+  background: var(--blue);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #209dd8;
-  color: #fff;
+  background: var(--amber);
+  color: var(--gray);
 }
 
 /*--------------------------------------------------------------
@@ -601,6 +601,7 @@ section {
   transition: all ease-in-out 0.4s;
   background: #fff;
   cursor: pointer;
+  width: 100%;
 }
 
 .featured .icon-box .icon {
