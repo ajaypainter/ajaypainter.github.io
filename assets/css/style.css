@@ -122,10 +122,6 @@ h6 {
   background: var(--gray);
 }
 
-#header.header-scrolled .logo a {
-  color: var(--blue);
-}
-
 #header .logo {
   font-size: 30px;
   margin: 0;
@@ -659,11 +655,6 @@ section {
 
 #footer .copyright {
   float: left;
-}
-
-#footer .copyright span {
-  float: left;
-  color: var(--blue);
 }
 
 #footer .credits {
