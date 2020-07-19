@@ -299,7 +299,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: var(--amber);
 }
 
 .mobile-nav {
@@ -327,7 +327,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #37517e;
+  color: var(--gray);
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -336,7 +336,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #47b2e4;
+  color: var(--amber);
   text-decoration: none;
 }
 
@@ -372,7 +372,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 58, 90, 0.6);
+  background: rgba(66, 66, 66, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
