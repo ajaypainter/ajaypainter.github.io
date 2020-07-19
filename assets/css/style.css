@@ -42,7 +42,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: var(--blue);
+  background: var(--gray);
 }
 
 #preloader:before {
@@ -50,9 +50,9 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid var(--blue);
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid var(--gray);
+  border-top-color: var(--amber);
+  border-bottom-color: var(--amber);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -604,18 +604,17 @@ section {
   width: 100%;
 }
 
-.featured .icon-box .icon {
-  margin-bottom: 10px;
-}
-
-.featured .icon-box .icon i {
-  color: #47b2e4;
-  font-size: 36px;
+.featured .icon-box .intro {
+  height: 200px;
   transition: 0.3s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .featured .icon-box h4 {
   font-weight: 500;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-size: 24px;
 }
