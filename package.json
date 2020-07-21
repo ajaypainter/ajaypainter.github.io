@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/greenthera/bharuchct/issues"
   },
-  "homepage": "https://github.com/greenthera/bharuchct#readme"
+  "homepage": "https://github.com/greenthera/bharuchct#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
 }
